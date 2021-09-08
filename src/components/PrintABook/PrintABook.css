@@ -55,7 +55,7 @@ h5 {
     margin-left: 5%;
 }
 
-.number-of-pages {
+.number-of-pages, .continue-button, .paper-weight {
     width: 100%;
 }
 
@@ -95,4 +95,17 @@ h5 {
     background-color: white;
     padding: 2px;
     cursor: pointer;
+}
+
+.continue-button button {
+    border: none;
+    width: 30%;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-weight: 300;
+    background-color: #A83FDA
+}
+
+.continue-button button:focus {
+    outline: none;
 }
