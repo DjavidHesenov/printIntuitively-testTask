@@ -1,0 +1,49 @@
+.nav-top{
+    width: 100%;
+    height: 8%;
+    background-color: #A83FDA;
+    display: flex;
+    align-items: center;
+}
+
+.inner-box {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-box__logo {
+    color: white;
+    font-family: Lovelace;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.right-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: white;
+    width: 110%;
+
+}
+
+.right-box__contact button {
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.right-box__links {
+    width: 250px;
+}
+
+.right-box__links a{
+    margin-left: 4%;
+}

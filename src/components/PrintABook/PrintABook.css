@@ -1,0 +1,98 @@
+.main {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 6%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-top-words {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.book-type {
+    margin: 3% 0 3% 0; 
+    width: 100%;
+    display: flex;
+}
+
+.help {
+    margin-left: 5%;
+    cursor: pointer;
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.box {
+    background-color: white;
+}
+
+.covers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hardcover, .softcover {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    width: 245px;
+    height: 80px;
+}
+
+img {
+    width: 80px;
+}
+
+h5 {
+    margin-left: 5%;
+}
+
+.number-of-pages {
+    width: 100%;
+}
+
+.number-of-pages input{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;  
+    font-size: 14px;
+}
+
+.number-of-pages input:focus {
+    outline: none;
+}
+
+.paper-color {
+    width: 100%;
+    margin: 0 0 3% 0; 
+}
+
+.radio-color {
+    display: flex;
+    flex-direction: column;
+}
+
+.a, .paper-weight {
+    margin-bottom: 3%;
+}
+
+.paper-weight {
+    display: flex;
+}
+
+.paper-weight__div {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 0 3px 0 3px;
+    background-color: white;
+    padding: 2px;
+    cursor: pointer;
+}
